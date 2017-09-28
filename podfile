@@ -1,0 +1,11 @@
+target 'HuaXiaMall' do
+platform :ios, '8.0'
+pod 'SDWebImage'
+pod 'MJExtension'
+pod 'AFNetworking'
+pod 'MJRefresh'
+pod 'MBProgressHUD'
+pod 'UMengSocial'
+pod 'BaiduMapKit'
+pod 'FMDB’
+end

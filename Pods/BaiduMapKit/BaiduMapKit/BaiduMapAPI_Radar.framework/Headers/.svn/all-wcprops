@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/zerosoft/!svn/ver/2059/Development/HuaxiaMall/iOS/HuaXiaMall/Pods/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Radar.framework/Headers
+END
+BMKRadarVersion.h
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/zerosoft/!svn/ver/2059/Development/HuaxiaMall/iOS/HuaXiaMall/Pods/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Radar.framework/Headers/BMKRadarVersion.h
+END
+BMKRadarOption.h
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/zerosoft/!svn/ver/2059/Development/HuaxiaMall/iOS/HuaXiaMall/Pods/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Radar.framework/Headers/BMKRadarOption.h
+END
+BMKRadarManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/zerosoft/!svn/ver/2059/Development/HuaxiaMall/iOS/HuaXiaMall/Pods/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Radar.framework/Headers/BMKRadarManager.h
+END
+BMKRadarResult.h
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/zerosoft/!svn/ver/2059/Development/HuaxiaMall/iOS/HuaXiaMall/Pods/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Radar.framework/Headers/BMKRadarResult.h
+END
+BMKRadarComponent.h
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/zerosoft/!svn/ver/2059/Development/HuaxiaMall/iOS/HuaXiaMall/Pods/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Radar.framework/Headers/BMKRadarComponent.h
+END

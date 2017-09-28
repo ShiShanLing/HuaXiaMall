@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="SimilarVideoCourseCVCell">
+            <rect key="frame" x="0.0" y="0.0" width="173" height="139"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="173" height="139"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hashiqi1.png" translatesAutoresizingMaskIntoConstraints="NO" id="9bV-XK-g5r">
+                        <rect key="frame" x="0.0" y="0.0" width="173" height="97"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="9bV-XK-g5r" secondAttribute="height" multiplier="173:97" id="BSE-bt-TTT"/>
+                            <constraint firstAttribute="width" constant="173" id="JXM-JU-JmA"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iOS开发多线程教学" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RKI-Rf-0VV">
+                        <rect key="frame" x="30" y="103" width="143" height="11"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="11" id="f1q-3Z-rv8"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¥:5999.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HNx-UT-Ivh">
+                        <rect key="frame" x="0.0" y="120" width="83" height="12"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="12" id="K2y-es-aPk"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" red="0.93059724570000002" green="0.2745210528" blue="0.18561512229999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5万人参与" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cbP-fW-UU0">
+                        <rect key="frame" x="91" y="120" width="82" height="12"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="12" id="hTE-1Q-0pP"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X94-iW-Fne">
+                        <rect key="frame" x="3" y="97" width="26" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="nV3-jB-Mak"/>
+                            <constraint firstAttribute="width" constant="26" id="zA3-U9-EZA"/>
+                        </constraints>
+                        <state key="normal" image="VideoCourse"/>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="RKI-Rf-0VV" secondAttribute="trailing" id="3rA-2b-SWd"/>
+                <constraint firstItem="cbP-fW-UU0" firstAttribute="leading" secondItem="HNx-UT-Ivh" secondAttribute="trailing" constant="8" id="5pm-yg-iyY"/>
+                <constraint firstItem="9bV-XK-g5r" firstAttribute="width" secondItem="9bV-XK-g5r" secondAttribute="height" multiplier="173:97" id="HVc-nZ-WGX"/>
+                <constraint firstItem="RKI-Rf-0VV" firstAttribute="top" secondItem="9bV-XK-g5r" secondAttribute="bottom" constant="6" id="JXf-HZ-k63"/>
+                <constraint firstAttribute="trailing" secondItem="9bV-XK-g5r" secondAttribute="trailing" id="M0H-Su-tMw"/>
+                <constraint firstItem="HNx-UT-Ivh" firstAttribute="top" secondItem="RKI-Rf-0VV" secondAttribute="bottom" constant="6" id="SIH-CR-YQ9"/>
+                <constraint firstItem="9bV-XK-g5r" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Vcx-FX-2fk"/>
+                <constraint firstItem="X94-iW-Fne" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="3" id="XeA-QU-Ptb"/>
+                <constraint firstItem="HNx-UT-Ivh" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="YTN-o9-jcF"/>
+                <constraint firstItem="9bV-XK-g5r" firstAttribute="width" secondItem="9bV-XK-g5r" secondAttribute="height" multiplier="173:97" id="ZhH-cu-zZe"/>
+                <constraint firstItem="RKI-Rf-0VV" firstAttribute="leading" secondItem="X94-iW-Fne" secondAttribute="trailing" constant="1" id="cs3-7k-wf0"/>
+                <constraint firstAttribute="trailing" secondItem="cbP-fW-UU0" secondAttribute="trailing" id="gUq-h1-rIB"/>
+                <constraint firstItem="cbP-fW-UU0" firstAttribute="width" secondItem="HNx-UT-Ivh" secondAttribute="width" constant="-1" id="sfq-it-0Yh"/>
+                <constraint firstItem="cbP-fW-UU0" firstAttribute="top" secondItem="RKI-Rf-0VV" secondAttribute="bottom" constant="6" id="stQ-bU-mf5"/>
+                <constraint firstItem="X94-iW-Fne" firstAttribute="top" secondItem="9bV-XK-g5r" secondAttribute="bottom" id="uT2-kn-F67"/>
+                <constraint firstItem="9bV-XK-g5r" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="z23-xp-3qI"/>
+            </constraints>
+            <point key="canvasLocation" x="-66" y="32"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="VideoCourse" width="16" height="16"/>
+        <image name="hashiqi1.png" width="440" height="299"/>
+    </resources>
+</document>

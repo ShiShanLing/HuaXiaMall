@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/zerosoft/!svn/ver/2059/Development/HuaxiaMall/iOS/HuaXiaMall/Pods/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Location.framework/Headers
+END
+BMKLocationService.h
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/zerosoft/!svn/ver/2059/Development/HuaxiaMall/iOS/HuaXiaMall/Pods/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Location.framework/Headers/BMKLocationService.h
+END
+BMKLocationComponent.h
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/zerosoft/!svn/ver/2059/Development/HuaxiaMall/iOS/HuaXiaMall/Pods/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Location.framework/Headers/BMKLocationComponent.h
+END
+BMKLocationVersion.h
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/zerosoft/!svn/ver/2059/Development/HuaxiaMall/iOS/HuaXiaMall/Pods/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Location.framework/Headers/BMKLocationVersion.h
+END

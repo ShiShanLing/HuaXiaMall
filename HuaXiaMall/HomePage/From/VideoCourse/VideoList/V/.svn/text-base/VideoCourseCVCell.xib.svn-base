@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="VideoCourseCVCell" id="gTV-IL-0wX" customClass="VideoCourseCVCell">
+            <rect key="frame" x="0.0" y="0.0" width="173" height="139"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="173" height="139"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hashiqi1.png" translatesAutoresizingMaskIntoConstraints="NO" id="n6H-Dg-spl">
+                        <rect key="frame" x="0.0" y="0.0" width="173" height="97"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="n6H-Dg-spl" secondAttribute="height" multiplier="173:97" id="hhJ-XQ-z5T"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iOS开发多线程教学" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R65-Ii-1eZ">
+                        <rect key="frame" x="0.0" y="103" width="173" height="11"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="11" id="wCG-Lb-pKC"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5万人参与" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u2J-A1-Z2Y">
+                        <rect key="frame" x="93" y="121" width="80" height="10"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="10" id="Z59-2O-qHW"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¥:5999.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bMe-7g-dvk">
+                        <rect key="frame" x="0.0" y="121" width="71" height="10"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="10" id="BYd-Qf-nIj"/>
+                            <constraint firstAttribute="width" constant="71" id="MbP-6H-osV"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" red="0.93059724570000002" green="0.2745210528" blue="0.18561512229999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="R65-Ii-1eZ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="8qT-nj-3zl"/>
+                <constraint firstItem="bMe-7g-dvk" firstAttribute="top" secondItem="R65-Ii-1eZ" secondAttribute="bottom" constant="7" id="ByF-4V-ZOP"/>
+                <constraint firstItem="R65-Ii-1eZ" firstAttribute="top" secondItem="n6H-Dg-spl" secondAttribute="bottom" constant="6" id="Qti-jn-iVY"/>
+                <constraint firstAttribute="trailing" secondItem="u2J-A1-Z2Y" secondAttribute="trailing" id="U0w-En-mDQ"/>
+                <constraint firstItem="u2J-A1-Z2Y" firstAttribute="leading" secondItem="bMe-7g-dvk" secondAttribute="trailing" constant="22" id="VBu-FS-zb5"/>
+                <constraint firstItem="bMe-7g-dvk" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="VYl-9L-DBU"/>
+                <constraint firstAttribute="trailing" secondItem="R65-Ii-1eZ" secondAttribute="trailing" id="gpv-mo-PUX"/>
+                <constraint firstAttribute="trailing" secondItem="n6H-Dg-spl" secondAttribute="trailing" id="kV3-nC-dOk"/>
+                <constraint firstItem="n6H-Dg-spl" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="n2g-yY-umJ"/>
+                <constraint firstItem="n6H-Dg-spl" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="xO8-dG-nSF"/>
+                <constraint firstItem="u2J-A1-Z2Y" firstAttribute="top" secondItem="bMe-7g-dvk" secondAttribute="top" id="yBI-09-NMv"/>
+            </constraints>
+            <connections>
+                <outlet property="BuyNumLabel" destination="u2J-A1-Z2Y" id="bLW-zu-Maj"/>
+                <outlet property="goodsImageView" destination="n6H-Dg-spl" id="jfp-JM-tSG"/>
+                <outlet property="goodsNameLabel" destination="R65-Ii-1eZ" id="ie4-Wc-3r3"/>
+                <outlet property="goodsPrice" destination="bMe-7g-dvk" id="91c-0L-anW"/>
+            </connections>
+            <point key="canvasLocation" x="-125.5" y="-42.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="hashiqi1.png" width="440" height="299"/>
+    </resources>
+</document>

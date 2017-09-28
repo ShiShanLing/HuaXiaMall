@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="VideoContentTVCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IJm-yb-FYE">
+                        <rect key="frame" x="0.0" y="0.0" width="30" height="49"/>
+                        <color key="backgroundColor" red="0.93059724569320679" green="0.27452105283737183" blue="0.18561512231826782" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="Kii-WS-qBj"/>
+                        </constraints>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ltd-eR-3rs">
+                        <rect key="frame" x="30" y="0.0" width="29" height="49"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="29" id="Nh2-U7-YNf"/>
+                        </constraints>
+                        <state key="normal" image="bfsp"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="一二三四 二二三四 三二三四 再来一次" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kfY-RR-FWy">
+                        <rect key="frame" x="61" y="5" width="263" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="263" id="F4V-52-tgY"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="35分钟/60分钟" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xQz-16-f3n">
+                        <rect key="frame" x="61" y="28" width="263" height="12"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="12" id="uvw-Sb-SZ8"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="IJm-yb-FYE" firstAttribute="top" secondItem="Ltd-eR-3rs" secondAttribute="top" id="1v3-BX-aaQ"/>
+                    <constraint firstItem="xQz-16-f3n" firstAttribute="top" secondItem="kfY-RR-FWy" secondAttribute="bottom" constant="8" symbolic="YES" id="BQx-j0-6vE"/>
+                    <constraint firstItem="kfY-RR-FWy" firstAttribute="leading" secondItem="Ltd-eR-3rs" secondAttribute="trailing" constant="2" id="F31-0T-8fb"/>
+                    <constraint firstItem="kfY-RR-FWy" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-3" id="I0D-Xa-iZR"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="kfY-RR-FWy" secondAttribute="trailing" constant="43" id="V8M-he-mwK"/>
+                    <constraint firstItem="IJm-yb-FYE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Wo0-dc-Kf1"/>
+                    <constraint firstItem="Ltd-eR-3rs" firstAttribute="leading" secondItem="IJm-yb-FYE" secondAttribute="trailing" id="dqL-ka-ADg"/>
+                    <constraint firstItem="IJm-yb-FYE" firstAttribute="bottom" secondItem="Ltd-eR-3rs" secondAttribute="bottom" id="fKJ-A2-bHd"/>
+                    <constraint firstItem="kfY-RR-FWy" firstAttribute="trailing" secondItem="xQz-16-f3n" secondAttribute="trailing" id="hDa-RP-Crg"/>
+                    <constraint firstItem="IJm-yb-FYE" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="qpu-j1-i9t"/>
+                    <constraint firstItem="kfY-RR-FWy" firstAttribute="leading" secondItem="xQz-16-f3n" secondAttribute="leading" id="y6j-IA-9gW"/>
+                    <constraint firstItem="IJm-yb-FYE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ytn-XG-r6Q"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="VideoNameLbael" destination="kfY-RR-FWy" id="Gkn-dJ-bK6"/>
+                <outlet property="VideoTimeLabel" destination="xQz-16-f3n" id="Th5-vU-7hR"/>
+                <outlet property="studyProgressView" destination="IJm-yb-FYE" id="4hR-ey-DkI"/>
+            </connections>
+            <point key="canvasLocation" x="-20.5" y="46.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="bfsp" width="20" height="20"/>
+    </resources>
+</document>

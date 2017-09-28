@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/zerosoft/!svn/ver/2059/Development/HuaxiaMall/iOS/HuaXiaMall/HuaXiaMall/ShoppingCart/M
+END
+ShopCartModel.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/zerosoft/!svn/ver/2059/Development/HuaxiaMall/iOS/HuaXiaMall/HuaXiaMall/ShoppingCart/M/ShopCartModel.m
+END
+ShoppingCartGoodsModel+CoreDataProperties.h
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/zerosoft/!svn/ver/2059/Development/HuaxiaMall/iOS/HuaXiaMall/HuaXiaMall/ShoppingCart/M/ShoppingCartGoodsModel+CoreDataProperties.h
+END
+ShoppingCartStoreModel+CoreDataProperties.h
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/zerosoft/!svn/ver/2059/Development/HuaxiaMall/iOS/HuaXiaMall/HuaXiaMall/ShoppingCart/M/ShoppingCartStoreModel+CoreDataProperties.h
+END
+ShoppingCartGoodsModel+CoreDataProperties.m
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/zerosoft/!svn/ver/2059/Development/HuaxiaMall/iOS/HuaXiaMall/HuaXiaMall/ShoppingCart/M/ShoppingCartGoodsModel+CoreDataProperties.m
+END
+ShoppingCartStoreModel+CoreDataProperties.m
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/zerosoft/!svn/ver/2059/Development/HuaxiaMall/iOS/HuaXiaMall/HuaXiaMall/ShoppingCart/M/ShoppingCartStoreModel+CoreDataProperties.m
+END
+ShoppingCartGoodsModel+CoreDataClass.h
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/zerosoft/!svn/ver/2059/Development/HuaxiaMall/iOS/HuaXiaMall/HuaXiaMall/ShoppingCart/M/ShoppingCartGoodsModel+CoreDataClass.h
+END
+ShoppingCartStoreModel+CoreDataClass.h
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/zerosoft/!svn/ver/2059/Development/HuaxiaMall/iOS/HuaXiaMall/HuaXiaMall/ShoppingCart/M/ShoppingCartStoreModel+CoreDataClass.h
+END
+ShopCartModel.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/zerosoft/!svn/ver/2059/Development/HuaxiaMall/iOS/HuaXiaMall/HuaXiaMall/ShoppingCart/M/ShopCartModel.h
+END
+ShoppingCartGoodsModel+CoreDataClass.m
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/zerosoft/!svn/ver/2059/Development/HuaxiaMall/iOS/HuaXiaMall/HuaXiaMall/ShoppingCart/M/ShoppingCartGoodsModel+CoreDataClass.m
+END
+ShoppingCartStoreModel+CoreDataClass.m
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/zerosoft/!svn/ver/2059/Development/HuaxiaMall/iOS/HuaXiaMall/HuaXiaMall/ShoppingCart/M/ShoppingCartStoreModel+CoreDataClass.m
+END

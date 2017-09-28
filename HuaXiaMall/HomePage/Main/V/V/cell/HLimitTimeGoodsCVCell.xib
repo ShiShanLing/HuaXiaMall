@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="HLimitTimeGoodsCVCell">
+            <rect key="frame" x="0.0" y="0.0" width="119" height="146"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="119" height="146"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="books.png" translatesAutoresizingMaskIntoConstraints="NO" id="2Rz-T7-vU4">
+                        <rect key="frame" x="15" y="14" width="89" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="80" id="cp9-Sj-7jP"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tehui" translatesAutoresizingMaskIntoConstraints="NO" id="RYa-Md-z11">
+                        <rect key="frame" x="10" y="10" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="icf-rq-HcX"/>
+                            <constraint firstAttribute="width" constant="24" id="wcd-p6-ZdX"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="马克思主义.列宁思想" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XXm-ON-ped">
+                        <rect key="frame" x="10" y="107" width="99" height="12"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¥:998.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LYq-JO-0da">
+                        <rect key="frame" x="7" y="126" width="104" height="12"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="12" id="grz-6l-MyT"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" red="0.93059724569320679" green="0.27452105283737183" blue="0.18561512231826782" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cn7-yn-vqb">
+                        <rect key="frame" x="118" y="10" width="1" height="128"/>
+                        <color key="backgroundColor" red="0.94892948865890503" green="0.9490848183631897" blue="0.94889634847640991" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="1" id="Nqq-7O-K04"/>
+                            <constraint firstAttribute="height" constant="128" id="RfU-71-Ez1"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="LYq-JO-0da" secondAttribute="bottom" constant="8" id="203-0s-5GN"/>
+                <constraint firstAttribute="trailing" secondItem="XXm-ON-ped" secondAttribute="trailing" constant="10" id="76b-en-2cK"/>
+                <constraint firstItem="2Rz-T7-vU4" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="15" id="JuR-V6-VzA"/>
+                <constraint firstAttribute="trailing" secondItem="LYq-JO-0da" secondAttribute="trailing" constant="8" id="PBd-yf-5Ib"/>
+                <constraint firstItem="LYq-JO-0da" firstAttribute="top" secondItem="XXm-ON-ped" secondAttribute="bottom" constant="7" id="Pph-fa-3M6"/>
+                <constraint firstItem="RYa-Md-z11" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="RDm-yP-BCc"/>
+                <constraint firstItem="RYa-Md-z11" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="VLa-Fd-EGX"/>
+                <constraint firstItem="2Rz-T7-vU4" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="14" id="WSA-8E-agG"/>
+                <constraint firstItem="LYq-JO-0da" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="7" id="ZPD-X4-fe3"/>
+                <constraint firstItem="cn7-yn-vqb" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="be2-HW-nLf"/>
+                <constraint firstItem="XXm-ON-ped" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="e5P-91-h2P"/>
+                <constraint firstAttribute="trailing" secondItem="cn7-yn-vqb" secondAttribute="trailing" id="iHE-Bg-6Jp"/>
+                <constraint firstAttribute="trailing" secondItem="2Rz-T7-vU4" secondAttribute="trailing" constant="15" id="qHx-NR-qXx"/>
+                <constraint firstAttribute="bottom" secondItem="cn7-yn-vqb" secondAttribute="bottom" constant="8" id="wpE-VO-cGX"/>
+                <constraint firstItem="XXm-ON-ped" firstAttribute="top" secondItem="2Rz-T7-vU4" secondAttribute="bottom" constant="13" id="xsi-fV-Id1"/>
+            </constraints>
+            <size key="customSize" width="129" height="129"/>
+            <connections>
+                <outlet property="GoodsImageView" destination="2Rz-T7-vU4" id="34G-Kd-aRa"/>
+            </connections>
+            <point key="canvasLocation" x="-28.5" y="-19"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="books.png" width="135" height="139"/>
+        <image name="tehui" width="23" height="23"/>
+    </resources>
+</document>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="DistributionOrderTVCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="130"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="130"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="books.png" translatesAutoresizingMaskIntoConstraints="NO" id="Zhd-XS-mVr">
+                        <rect key="frame" x="8" y="10" width="110" height="110"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="110" id="ygI-5M-rzH"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="岛上书店 加布瑞埃拉泽文 美国..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yqn-Ff-mgG">
+                        <rect key="frame" x="136" y="12" width="231" height="13"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="13" id="HzH-71-Exy"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¥:36.88" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XtL-Yt-Ie8">
+                        <rect key="frame" x="136" y="40" width="167" height="14"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="14" id="ekh-MM-Gq7"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.93059724569320679" green="0.27452105283737183" blue="0.18561512231826782" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="获得佣金:¥9.8" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Q4-YO-Yp5">
+                        <rect key="frame" x="136" y="104" width="167" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="167" id="5QF-Df-V8F"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Stb-2g-afZ">
+                        <rect key="frame" x="306" y="96" width="61" height="25"/>
+                        <color key="backgroundColor" red="0.9397948384" green="0.54807388779999999" blue="0.18810948729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="61" id="HHR-Pc-bf5"/>
+                            <constraint firstAttribute="height" constant="25" id="XJA-bu-95O"/>
+                        </constraints>
+                        <state key="normal" title="分享">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="6"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="分享销量:10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kcv-BO-tO8">
+                        <rect key="frame" x="136" y="75" width="141" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="141" id="hW2-te-nDA"/>
+                            <constraint firstAttribute="height" constant="16" id="ktN-3e-qp9"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Yqn-Ff-mgG" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="4" id="AHL-Ei-UFk"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="0Q4-YO-Yp5" secondAttribute="bottom" constant="1" id="E3n-3d-OhN"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Yqn-Ff-mgG" secondAttribute="trailing" id="E6k-oh-7qN"/>
+                    <constraint firstItem="kcv-BO-tO8" firstAttribute="leading" secondItem="Zhd-XS-mVr" secondAttribute="trailing" constant="18" id="Lvl-WT-fy9"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="Zhd-XS-mVr" secondAttribute="leading" id="MjZ-Ji-h3Q"/>
+                    <constraint firstItem="XtL-Yt-Ie8" firstAttribute="leading" secondItem="Zhd-XS-mVr" secondAttribute="trailing" constant="18" id="Ngi-RE-ah0"/>
+                    <constraint firstItem="0Q4-YO-Yp5" firstAttribute="leading" secondItem="Zhd-XS-mVr" secondAttribute="trailing" constant="18" id="PdA-Hi-D3H"/>
+                    <constraint firstItem="XtL-Yt-Ie8" firstAttribute="top" secondItem="Yqn-Ff-mgG" secondAttribute="bottom" constant="15" id="Sdu-ak-kNS"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Stb-2g-afZ" secondAttribute="trailing" id="ZFF-cY-Dtn"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Zhd-XS-mVr" secondAttribute="bottom" constant="1.5" id="gDS-bB-5h1"/>
+                    <constraint firstItem="Yqn-Ff-mgG" firstAttribute="leading" secondItem="Zhd-XS-mVr" secondAttribute="trailing" constant="18" id="n2l-Iz-s7c"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="XtL-Yt-Ie8" secondAttribute="trailing" constant="64" id="nUw-Hs-vo1"/>
+                    <constraint firstItem="Zhd-XS-mVr" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="2" id="w6F-zO-mu7"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Stb-2g-afZ" secondAttribute="bottom" constant="1" id="wOS-rY-KTy"/>
+                    <constraint firstItem="0Q4-YO-Yp5" firstAttribute="top" secondItem="kcv-BO-tO8" secondAttribute="bottom" constant="13" id="xVr-AR-0g0"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="33.5" y="54"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="books.png" width="135" height="139"/>
+    </resources>
+</document>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16F73" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="BuyersOrderGoodsModel" representedClassName="BuyersOrderGoodsModel" syncable="YES">
+        <attribute name="goodsId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="goodsImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="goodsName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="goodsNum" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="goodsPrice" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="specInfo" optional="YES" attributeType="Transformable" valueTransformerName="goodsSpecValueTransformer" syncable="YES"/>
+    </entity>
+    <entity name="BuyersOrderListModel" representedClassName="BuyersOrderListModel" syncable="YES">
+        <attribute name="addTime" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="buyerName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orderAmount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orderGoodsList" optional="YES" attributeType="Transformable" valueTransformerName="GoodsImageVT" syncable="YES"/>
+        <attribute name="orderId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orderSn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orderState" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="payId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="paymentDirect" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="paymentName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="paySn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shippingFee" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="storeId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="storeName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="GoodsDetailsModel" representedClassName="GoodsDetailsModel" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="address1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="addressId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="addressId1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="areaInfo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="areaInfo1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftPoints" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="goodCostPrice" optional="YES" attributeType="Float" valueTransformerName="goodsSpecValueTransformer" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="goodsBody" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="goodsDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="goodsId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="goodsImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="goodsImageMore" optional="YES" attributeType="Transformable" valueTransformerName="GoodsImageVT" syncable="YES"/>
+        <attribute name="goodsMarketPrice" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="goodsName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="goodsSpec" optional="YES" attributeType="Transformable" valueTransformerName="goodsSpecValueTransformer" syncable="YES"/>
+        <attribute name="goodsStorePrice" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="goodsSubtitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isDefault" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isDefault1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="longitude1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="memberId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="memberId1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mobPhone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mobPhone1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="salenum" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="specName" optional="YES" attributeType="Transformable" valueTransformerName="GoodsImageVT" syncable="YES"/>
+        <attribute name="storeId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="storeName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trueName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trueName1" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="OrderDetailsModel" representedClassName="OrderDetailsModel" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="Transformable" valueTransformerName="GoodsImageVT" syncable="YES"/>
+        <attribute name="buyingPatternsName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="carTaskId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createTimeStr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="goodsAmount" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="orderAmount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orderGoodsList" optional="YES" attributeType="Transformable" valueTransformerName="GoodsImageVT" syncable="YES"/>
+        <attribute name="orderId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orderSn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orderState" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orderTotalPrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="payId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="paySn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shippingFee" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="storeId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="storeName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="taxState" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ShippingAddressModel" representedClassName="ShippingAddressModel" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="addressId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="areaInfo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isDefault" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="memberId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mobPhone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trueName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ShoppingCartGoodsModel" representedClassName="ShoppingCartGoodsModel" syncable="YES">
+        <attribute name="cartId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="goodsId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="goodsImages" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="goodsName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="goodsNum" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="goodsPrice" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isSelect" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="memberId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="specId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="specInfo" optional="YES" attributeType="Transformable" valueTransformerName="goodsSpecValueTransformer" syncable="YES"/>
+    </entity>
+    <entity name="ShoppingCartStoreModel" representedClassName="ShoppingCartStoreModel" syncable="YES">
+        <attribute name="goodsNum" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isEditor" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isSelect" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="list" optional="YES" attributeType="Transformable" valueTransformerName="GoodsImageVT" syncable="YES"/>
+        <attribute name="storeId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="storeName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="StoreCollectModel" representedClassName="StoreCollectModel" syncable="YES">
+        <attribute name="favTime" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isEditor" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="storeCollect" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="storeGoodsCount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="storeId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="storeLogo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="storeName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UserDataModel" representedClassName="UserDataModel" syncable="YES">
+        <attribute name="appKey" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="memberAvatar" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="memberConsumePoints" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="memberId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="memberMobile" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="memberName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="memberRankPoints" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="memberSex" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="memberTruename" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="memberType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="noPayOrder" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="noReceiveOrder" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="BuyersOrderGoodsModel" positionX="-54" positionY="108" width="128" height="135"/>
+        <element name="BuyersOrderListModel" positionX="-63" positionY="99" width="128" height="255"/>
+        <element name="GoodsDetailsModel" positionX="-63" positionY="-18" width="128" height="555"/>
+        <element name="ShippingAddressModel" positionX="-27" positionY="153" width="128" height="180"/>
+        <element name="ShoppingCartGoodsModel" positionX="-36" positionY="144" width="128" height="195"/>
+        <element name="ShoppingCartStoreModel" positionX="-45" positionY="135" width="128" height="135"/>
+        <element name="UserDataModel" positionX="-36" positionY="153" width="128" height="225"/>
+        <element name="OrderDetailsModel" positionX="-45" positionY="135" width="128" height="300"/>
+        <element name="StoreCollectModel" positionX="-36" positionY="144" width="128" height="150"/>
+    </elements>
+</model>

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/zerosoft/!svn/ver/2059/Development/HuaxiaMall/iOS/HuaXiaMall/Pods/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Base.framework/Headers
+END
+BMKTypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/zerosoft/!svn/ver/2059/Development/HuaxiaMall/iOS/HuaXiaMall/Pods/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Base.framework/Headers/BMKTypes.h
+END
+BMKVersion.h
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/zerosoft/!svn/ver/2059/Development/HuaxiaMall/iOS/HuaXiaMall/Pods/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Base.framework/Headers/BMKVersion.h
+END
+BMKUserLocation.h
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/zerosoft/!svn/ver/2059/Development/HuaxiaMall/iOS/HuaXiaMall/Pods/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Base.framework/Headers/BMKUserLocation.h
+END
+BMKGeneralDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/zerosoft/!svn/ver/2059/Development/HuaxiaMall/iOS/HuaXiaMall/Pods/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Base.framework/Headers/BMKGeneralDelegate.h
+END
+BMKMapManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/zerosoft/!svn/ver/2059/Development/HuaxiaMall/iOS/HuaXiaMall/Pods/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Base.framework/Headers/BMKMapManager.h
+END
+BMKBaseComponent.h
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/zerosoft/!svn/ver/2059/Development/HuaxiaMall/iOS/HuaXiaMall/Pods/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Base.framework/Headers/BMKBaseComponent.h
+END

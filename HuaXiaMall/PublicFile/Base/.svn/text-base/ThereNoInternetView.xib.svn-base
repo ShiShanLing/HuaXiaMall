@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ThereNoInternetView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ThereNoInternet.png" translatesAutoresizingMaskIntoConstraints="NO" id="62R-1H-DcN">
+                    <rect key="frame" x="132" y="153" width="110" height="110"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="110" id="8W1-aU-aMy"/>
+                        <constraint firstAttribute="width" constant="110" id="ghD-nA-Mcr"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="网络竟然崩溃" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="if8-JG-VZM">
+                    <rect key="frame" x="0.0" y="293" width="375" height="17"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="17" id="NmH-vI-2Su"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="别紧张,请检查您的网络" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3LD-sN-Ywu">
+                    <rect key="frame" x="0.0" y="326" width="375" height="13"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="13" id="kt5-oO-23k"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.41172277930000001" green="0.41179502010000002" blue="0.41170737149999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U6j-2d-eoO">
+                    <rect key="frame" x="158" y="359" width="60" height="27"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="WlR-F6-CPF"/>
+                        <constraint firstAttribute="height" constant="27" id="cot-Wm-e7x"/>
+                    </constraints>
+                    <state key="normal" title="刷新">
+                        <color key="titleColor" red="0.41172277927398682" green="0.41179502010345459" blue="0.41170737147331238" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="handleRefreshBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="8by-4K-kMp"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.92148083448410034" green="0.92163199186325073" blue="0.92144864797592163" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="U6j-2d-eoO" firstAttribute="top" secondItem="3LD-sN-Ywu" secondAttribute="bottom" constant="20" id="1xx-RA-8a1"/>
+                <constraint firstAttribute="trailing" secondItem="3LD-sN-Ywu" secondAttribute="trailing" id="2Bq-to-z1B"/>
+                <constraint firstItem="if8-JG-VZM" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="2t0-6w-m6A"/>
+                <constraint firstItem="if8-JG-VZM" firstAttribute="top" secondItem="62R-1H-DcN" secondAttribute="bottom" constant="30" id="7p9-QQ-vqX"/>
+                <constraint firstItem="if8-JG-VZM" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Bx8-E1-dGU"/>
+                <constraint firstItem="3LD-sN-Ywu" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="C4V-uC-a5x"/>
+                <constraint firstItem="62R-1H-DcN" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Wum-V6-AZx"/>
+                <constraint firstItem="U6j-2d-eoO" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="YoI-OR-ISy"/>
+                <constraint firstAttribute="trailing" secondItem="if8-JG-VZM" secondAttribute="trailing" id="jqK-sW-bkA"/>
+                <constraint firstItem="3LD-sN-Ywu" firstAttribute="top" secondItem="if8-JG-VZM" secondAttribute="bottom" constant="16" id="lop-Du-aHm"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="markedWordsLabel" destination="3LD-sN-Ywu" id="K4f-zG-xmh"/>
+                <outlet property="networkStatusLabel" destination="if8-JG-VZM" id="e8L-dV-XUH"/>
+                <outlet property="refreshBtn" destination="U6j-2d-eoO" id="Q7E-Tg-ZHU"/>
+            </connections>
+            <point key="canvasLocation" x="15.5" y="15.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ThereNoInternet.png" width="220" height="220"/>
+    </resources>
+</document>

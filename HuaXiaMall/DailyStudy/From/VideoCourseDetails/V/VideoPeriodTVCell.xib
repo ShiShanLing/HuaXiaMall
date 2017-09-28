@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="VideoPeriodTVCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="36"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="36"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xCj-7M-xhS">
+                        <rect key="frame" x="343" y="0.0" width="32" height="36"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="32" id="fbq-rX-nSS"/>
+                        </constraints>
+                        <state key="normal" image="xjt"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="userInteractionEnabled" value="NO"/>
+                        </userDefinedRuntimeAttributes>
+                    </button>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="78s-T1-cpq">
+                        <rect key="frame" x="0.0" y="0.0" width="30" height="36"/>
+                        <color key="backgroundColor" red="0.56651266690000002" green="1" blue="0.41534957449999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="Qws-UM-Gyb"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="第一节 青少年广播体操-时代而召唤" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Esl-hL-GM3">
+                        <rect key="frame" x="30" y="0.0" width="289" height="36"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="xCj-7M-xhS" secondAttribute="trailing" constant="-8" id="4Gg-jH-Rfv"/>
+                    <constraint firstItem="Esl-hL-GM3" firstAttribute="leading" secondItem="78s-T1-cpq" secondAttribute="trailing" id="FT8-8H-oA9"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="78s-T1-cpq" secondAttribute="bottom" constant="-8" id="MOI-Rr-2oG"/>
+                    <constraint firstItem="xCj-7M-xhS" firstAttribute="leading" secondItem="Esl-hL-GM3" secondAttribute="trailing" constant="24" id="PSg-AK-k23"/>
+                    <constraint firstItem="xCj-7M-xhS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-8" id="bNE-VX-58r"/>
+                    <constraint firstItem="78s-T1-cpq" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-8" id="cjQ-hn-cmx"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Esl-hL-GM3" secondAttribute="bottom" constant="-8" id="pMZ-Wl-c7O"/>
+                    <constraint firstItem="Esl-hL-GM3" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-8" id="rAN-6g-QVJ"/>
+                    <constraint firstItem="78s-T1-cpq" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-8" id="uWh-9c-Tu6"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="xCj-7M-xhS" secondAttribute="bottom" constant="-8" id="wik-uo-Da4"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="guideBtn" destination="xCj-7M-xhS" id="JBG-hO-gEr"/>
+                <outlet property="studyNameLbael" destination="Esl-hL-GM3" id="hl1-wd-tCL"/>
+                <outlet property="studyProgressView" destination="78s-T1-cpq" id="CvP-Z5-Kb7"/>
+            </connections>
+            <point key="canvasLocation" x="51.5" y="-9"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="xjt" width="12" height="12"/>
+    </resources>
+</document>
